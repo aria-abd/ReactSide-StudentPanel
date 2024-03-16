@@ -30,7 +30,7 @@ const StudentPanel = () => {
     <main className="flex min-h-screen flex-col items-center justify-start p-24">
       <h1 className="text-[25px]">Student Panel</h1>
       <h2>Add Student Form</h2>
-      <form className="flex">
+      <form className="flex flex-col md:flex-row">
         <input
           name="name"
           placeholder="name"
